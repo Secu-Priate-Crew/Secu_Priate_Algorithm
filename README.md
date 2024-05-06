@@ -16,25 +16,41 @@
 > 계획서 무조건 필독 📑
 
 **[Notion](https://dog-particle-145.notion.site/Algorithm-Loadmap-aa086c44a4b44c52b4a95ed5a8b956fb)**
+
+Tip. github에 대하여 무지하다면
+- [github commands](https://inpa.tistory.com/entry/GIT-%E2%9A%A1%EF%B8%8F-%ED%95%B5%EC%8B%AC-%EB%AA%85%EB%A0%B9%EC%96%B4-%EC%9A%94%EC%95%BD-%F0%9F%9A%A9-%EC%B4%9D%EC%A0%95%EB%A6%AC)
+- [github pr](https://inpa.tistory.com/entry/GIT-%E2%9A%A1%EF%B8%8F-%EA%B9%83%ED%97%99-PRPull-Request-%EB%B3%B4%EB%82%B4%EB%8A%94-%EB%B0%A9%EB%B2%95-folk-issue)
 <br />
 <br />
 
 ## ✅ 규칙
 1. 이 저장소를 `fork` 한다.
 2. 개인 기수 `branches` 를 요청 후 자신의 `branches` 에서 코드를 올린 후 요청한다.
-2. 생성된 원격 저장소 먼저 개인 기수 `branches`에 접근 후 `Other/`폴더 내에 `이름` 으로 폴더를 생성한다.
-4. 생성된 폴더에 자신의 소스코드를 업로드 한다.
+3. 생성된 원격 저장소 먼저 개인 기수 `branches`에 접근 후 `Other/`폴더 내에 `이름` 으로 폴더를 생성한다.
+4. 자신의 폴더에서 `custom`과 `source`로 폴더 구분하며, 주차별 공부는 `source` 개인 알고리즘 공부는 `custom`에 올린다.
+5. 생성된 폴더에 자신의 소스코드를 업로드 한다.
 6. 이때 `commit 규칙`을 메뉴얼로 해당 방식대로 하는 것을 추천한다!!
 7. 원본 저장소로 `Pull Request`를 한다. (매주 정해진 3문제 이상, 매주 **토요일**에 Merge예정)
-6. 다른 사람들의 `PR`을 보고 자유롭게 코드리뷰를 한다.
-7. ***주의!! 기존 폴더를 지우면 안됩니다!!*** 개인 폴더 내부만 수정해주세요 :)
+8. 다른 사람들의 `PR`을 보고 자유롭게 코드리뷰를 한다.
+9. ***주의!! 기존 폴더를 지우면 안됩니다!!*** 개인 폴더 내부만 수정해주세요 :)
 
 <br />
 <br />
 
 ## ✅ 소스코드 파일 이름 규칙
 - __자유롭게 작성__ 
-- 개인 `branches`로 커밋할 경우
+- 개인 기수 `branches`로 커밋할 경우 
+
+>  Ex. v1이라면..
+  ```github
+ 
+  git branch [branch name] //creat branch
+  git checkout [branch name] or git switch [branch name] //switch branch
+
+  commit... logic use
+  git push origin v1
+  git branch -d [branch name]
+  ```
 
 <br />
 <br />
@@ -42,7 +58,8 @@
 ## ✅ commit 규칙
 - commit 메세지: [문제 플랫폼] 문제이름 / 난이도 / 걸린시간 
 - description: 문제 주소 (option)
-- 터미널에서 작성법: 
+
+> 터미널에서 작성법: 
 ```
 git commit -m "[BOJ] Hello World / 브론즈5 / 1분" -m "https://www.acmicpc.net/problem/2557"
 ```
