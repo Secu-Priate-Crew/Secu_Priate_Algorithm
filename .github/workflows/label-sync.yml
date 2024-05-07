@@ -1,20 +1,23 @@
 # from : https://github.com/marketplace/actions/label-syncer
 
-name: Label issues
+name: Sync labels
+
 on:
-  issues:
-    types:
-      - reopened
-      - opened
+  push:
+    branches:
+      - master
+    paths:
+      - .github/labels.yml
+  workflow_dispatch:
+
 jobs:
-  label_issues:
+  build:
     runs-on: ubuntu-latest
-    permissions:
-      issues: write
     steps:
-      - run: gh issue edit "$NUMBER" --add-label "$LABELS"
+      - uses: actions/checkout@v2
+
+      - uses: micnncim/action-label-syncer@v1
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GH_REPO: ${{ github.repository }}
-          NUMBER: ${{ github.event.issue.number }}
-          LABELS: triage
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          manifest: .github/labels.yml

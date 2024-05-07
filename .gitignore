@@ -1,0 +1,5 @@
+# generate .gitignore
+# from  : 
+#       https://www.toptal.com/developers/gitignore
+
+./Custom/*
