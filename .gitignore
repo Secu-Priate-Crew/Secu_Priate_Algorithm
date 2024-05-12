@@ -3,3 +3,4 @@
 #       https://www.toptal.com/developers/gitignore
 
 ./Custom/*
+/other/custom/
