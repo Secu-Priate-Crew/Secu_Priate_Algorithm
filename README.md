@@ -26,11 +26,12 @@ Tip. github에 대하여 무지하다면
 ## ✅ 규칙
 1. 이 저장소를 `fork` 한다.
 2. 개인 기수 `branches` 를 요청 후 자신의 `branches` 에서 코드를 올린 후 요청한다.
-3. 생성된 원격 저장소 먼저 개인 기수 `branches`에 접근 후 `Other/`폴더 내에 `이름` 으로 폴더를 생성한다.
-4. 자신의 폴더에서 `custom`과 `source`로 폴더 구분하며, 주차별 공부는 `source` 개인 알고리즘 공부는 `custom`에 올린다.
+3. 생성된 원격 저장소 먼저 개인 기수 `branches`에 접근 후 `Other/`폴더 내에 으로 기수 폴더에 자신이 푼 알고리즘 문제를 기제함
+4. 자신의 폴더에서 `Other/Custom`과 `Source`로 폴더 구분하며, 주차별 개론 및 예시 문제 공부는 `Source` 개인 알고리즘 공부는 `Other/v1`에 올린다.
+→ 문제가 꼅치는 문제가 발생할 시 이미 명시된 문제 파일로 접근하여 자신의 코드를 올림(모두 검토를 통해 더 개선된 코드를 제외한 나머지는 주석처리)
 5. 생성된 폴더에 자신의 소스코드를 업로드 한다.
 6. 이때 `commit 규칙`을 메뉴얼로 해당 방식대로 하는 것을 추천한다!!
-7. 원본 저장소로 `Pull Request`를 한다. (매주 정해진 3문제 이상, 매주 **토요일**에 Merge예정)
+7. 원본 저장소로 `Pull Request`를 한다. (~~매주 정해진 3문제 이상~~, 매주 **일요일**에 Merge예정)
 8. 다른 사람들의 `PR`을 보고 자유롭게 코드리뷰를 한다.
 9. ***주의!! 기존 폴더를 지우면 안됩니다!!*** 개인 폴더 내부만 수정해주세요 :)
 
@@ -98,7 +99,26 @@ git commit -m "[BOJ] Hello World / 브론즈5 / 1분" -m "https://www.acmicpc.ne
 
 ## ✅ 참여자
 <table><tr>         <td align="center"><a href="https://github.com/Jastes"><img src="https://avatars.githubusercontent.com/u/53941330?v=4 s=100" width="100px;" alt=""/>         <br /><sub><b>Jastes</b><br></sub></a><br />
-  </tr><tr>         <td align="center">
+
+<td align="center"><a href="https://github.com/RUNMUNG"><img src="https://avatars.githubusercontent.com/u/160616830?v=4 s=100" width="100px;" alt=""/>         <br /><sub><b>RUNMUNG</b><br></sub></a><br />
+
+<td align="center"><a href="https://github.com/kimseoungg"><img src="https://avatars.githubusercontent.com/u/118477163?v=4 s=100" width="100px;" alt=""/>         <br /><sub><b>kimseoungg</b><br></sub></a><br />
+
+<td align="center"><a href="https://github.com/YeongGwang8239"><img src="https://avatars.githubusercontent.com/u/94180449?v=4 s=100" width="100px;" alt=""/>         <br /><sub><b>YeongGwang</b><br></sub></a><br />
+
+<td align="center"><a href="https://github.com/kakao106"><img src="https://avatars.githubusercontent.com/u/169136634?v=4 s=100" width="100px;" alt=""/>         <br /><sub><b>kakao106</b><br></sub></a><br />
+
+<td align="center"><a href="https://github.com/mgh0913"><img src="https://avatars.githubusercontent.com/u/164339349?v=4 s=100" width="100px;" alt=""/>         <br /><sub><b>mgh</b><br></sub></a><br />
+
+
+  </tr><tr>         
+  
+  
+
+  <td align="center"><a href="https://github.com/soiltoad"><img src="https://avatars.githubusercontent.com/u/160489777?v=4 s=100" width="100px;" alt=""/>         <br /><sub><b>soiltoad</b><br></sub></a><br />
+  
+   </tr>
+  
   </td>
 </table><br />
 
